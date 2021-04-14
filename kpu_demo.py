@@ -1,4 +1,3 @@
-import utime, math
 import picokeypad as keypad
 import kpu
 
