@@ -28,7 +28,6 @@ def handle_single_button(button):
 def handle_all_buttons(buttons_array):
     if logging: print(buttons_array)
 
-if logging: print("running")
 while True: 
     button_states = keypad.get_button_states()
     if last_button_states != button_states:
