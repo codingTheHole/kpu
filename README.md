@@ -5,7 +5,7 @@ Utilities for the Pimoroni RGB Keypad
 Use Thonny (or whatever tool you use) to add the kpu.py file, and if desired the kpu_demo.py file, to your Pimoroni RGB Keypad
 
 ## Use
-
+```
 import picokeypad as keypad
 import kpu
 
@@ -34,3 +34,4 @@ while True:
     if last_button_states != button_states:
         last_button_states = button_states
         handle_button_states(button_states)
+```
